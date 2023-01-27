@@ -143,7 +143,8 @@ const NavBar = () => {
                                 className={Style.navbar_container_right_profile}
                             />
 
-                            {profile && <Profile currentAccount={currentAccount} />}
+                            {profile && <Profile />}
+                            {/* CHANGE TO {profile && <Profile currentAccount={currentAccount} />} */}
                         </div>
                     </div>
 
@@ -162,8 +163,8 @@ const NavBar = () => {
                 <div className={Style.sideBar}>
                     <SideBar
                         setOpenSideMenu={setOpenSideMenu}
-                        currentAccount={currentAccount}
-                        connectWallet={connectWallet}
+                        // currentAccount={currentAccount}
+                        // connectWallet={connectWallet}
                     />
                 </div>
             )}
