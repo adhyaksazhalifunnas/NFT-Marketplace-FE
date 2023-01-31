@@ -6,7 +6,7 @@ import Link from "next/link";
 //--import icon
 import { MdNotifications } from 'react-icons/md';
 import { BsSearch } from "react-icons/bs";
-import { DiJqueryLogo } from "react-icons/di";
+import { DiOpensource } from "react-icons/di";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 
 //internal import
@@ -80,7 +80,7 @@ const NavBar = () => {
             <div className={Style.navbar_container}>
                 <div className={Style.navbar_container_left}>
                     <div className={Style.logo}>
-                        <DiJqueryLogo onClick={() => router.push("/")} />
+                        <DiOpensource onClick={() => router.push("/")} />
                     </div>
                     <div className={Style.navbar_container_left_box_input}>
                         <div className={Style.navbar_container_left_box_input_box}>

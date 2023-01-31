@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { DiJqueryLogo } from "react-icons/di";
+import { DiOpensource } from "react-icons/di";
 import {
     TiSocialFacebook,
     TiSocialLinkedin,
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className={Style.footer_box_social}>
                     {/* <Image src={images.logo} alt="footer logo" height={100} width={100} /> */}
                     <a href="/">
-                        <DiJqueryLogo className={Style.footer_box_social_logo} />
+                        <DiOpensource className={Style.footer_box_social_logo} />
                     </a>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
