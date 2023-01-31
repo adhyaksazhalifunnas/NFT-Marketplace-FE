@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
+import { useRouter } from 'next/router'
 import Link from "next/link";
 
 //--import icon
@@ -71,6 +72,8 @@ const NavBar = () => {
             setOpenSideMenu(false);
         }
     };
+
+    const router = useRouter()
 
     return (
         <div className={Style.navbar}>

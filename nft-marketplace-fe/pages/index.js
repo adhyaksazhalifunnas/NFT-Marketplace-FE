@@ -27,17 +27,19 @@ const Home = () => {
             <HeroSection />
             <Service />
             <BigNFTSlider />
-            <FollowerTab />
-            <Collection />
             <Title
                 heading="Audio Collection"
                 paragraph="Discover the most outstanding NFTs in all topics of life."
             />
-            <Filter />
+            <AudioLive />
+            <FollowerTab />
+            <Slider />
+            <Collection />
             <Title
                 heading="Featured NFTs"
                 paragraph="Discover the most outstanding NFTs in all topics of life."
             />
+            <Filter />
             <NFTCard />
             <Title
                 heading="Browse by category"
@@ -45,6 +47,8 @@ const Home = () => {
             />
             <Category />
             <Subscribe />
+            {/* <Brand /> */}
+            <Video />
         </div>
     )
 }
