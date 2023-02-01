@@ -1,9 +1,33 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
 
-const NFTTabs = () => {
+//INTERNAL IMPORT
+import Style from "./NFTTabs.module.css";
+
+const NFTTabs = ({ dataTab, icon }) => {
     return (
-        <div>NFTTabs</div>
-    )
+        <div className={Style.NFTTabs}>
+            {dataTab.map((el, i) => (
+                <div className={Style.NFTTabs_box} key={i + 1}>
+                    <Image
+                        src={el}
+                        alt="profile image"
+                        width={40}
+                        height={40}
+                        className={Style.NFTTabs_box_img}
+                    />
+                    <div className={Style.NFTTabs_box_info}>
+                        <span>
+                            Offer $00000 by <span>N/A</span>
+                            {icon}
+                        </span>
+
+                        <small>Mon DD - T:TT PM</small>
+                    </div>
+                </div>
+            ))}
+        </div>
+    );
 }
 
 export default NFTTabs

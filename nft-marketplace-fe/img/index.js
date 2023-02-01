@@ -42,6 +42,7 @@ import nft_image_3 from "./nft-image-3.png";
 import nft_image_4 from "./nft-image-4.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
+import upload from "./upload.png"
 
 export default {
   collection,
@@ -65,6 +66,7 @@ export default {
   creatorbackground9,
   creatorbackground10,
   creatorbackground11,
+  upload,
   user1,
   user2,
   user3,

@@ -131,7 +131,11 @@ const NavBar = () => {
                                 handleClick={() => router.push("/uploadNFT")}
                             />
                         )} */}
-                        <Button btnText="Create" />
+                        <Button
+                            btnText="Create"
+                            btnName="Create"
+                            handleClick={() => { }}
+                        />
                     </div>
 
                     {/* USER PROFILE */}
@@ -166,8 +170,8 @@ const NavBar = () => {
                 <div className={Style.sideBar}>
                     <SideBar
                         setOpenSideMenu={setOpenSideMenu}
-                        // currentAccount={currentAccount}
-                        // connectWallet={connectWallet}
+                    // currentAccount={currentAccount}
+                    // connectWallet={connectWallet}
                     />
                 </div>
             )}

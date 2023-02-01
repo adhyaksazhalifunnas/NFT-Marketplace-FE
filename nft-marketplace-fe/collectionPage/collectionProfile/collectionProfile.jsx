@@ -44,9 +44,8 @@ const collectionProfile = () => {
                 <div className={Style.collectionProfile_box_middle}>
                     <h1>Awesome NFTs Collection</h1>
                     <p>
-                        Karafuru is home to 5,555 generative arts where colors reign
-                        supreme. Leave the drab reality and enter the world of Karafuru by
-                        Museum of Toys.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
 
                     <div className={Style.collectionProfile_box_middle_box}>

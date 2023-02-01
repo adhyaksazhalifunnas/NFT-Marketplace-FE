@@ -64,7 +64,7 @@ const AuthorProfileCard = ({ currentAccount }) => {
 
                 <div className={Style.AuthorProfileCard_box_info}>
                     <h2>
-                        Dony Herrera{""}{" "}
+                        Naname{""}{" "}
                         <span>
                             <MdVerified />
                         </span>{" "}
@@ -79,8 +79,7 @@ const AuthorProfileCard = ({ currentAccount }) => {
                     </div>
 
                     <p>
-                        Punk #4786 / An OG Cryptopunk Collector, hoarder of NFTs.
-                        Contributing to @ether_cards, an NFT Monetization Platform.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
 
                     <div className={Style.AuthorProfileCard_box_info_social}>
