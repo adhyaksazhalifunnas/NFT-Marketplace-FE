@@ -34,6 +34,7 @@ import vimeo from "./vimeo.svg";
 import vector from "./VectorHIW.svg";
 import zgcmq from "./zgcmq.svg";
 import hero from "./hero.png";
+import hero2 from "./hero2.png";
 import nft_1 from "./nft_1.png";
 import getAble from "./getable.png";
 import nft_image_1 from "./nft-image-1.png";
@@ -43,6 +44,14 @@ import nft_image_4 from "./nft-image-4.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import upload from "./upload.png"
+import provider1 from "./provider-1.png"
+import provider2 from "./provider-2.png"
+import provider3 from "./provider-3.png"
+import provider4 from "./provider-4.png"
+import founder1 from "./founder1.png"
+import founder2 from "./founder2.png"
+import founder3 from "./founder3.png"
+import founder4 from "./founder4.png"
 
 export default {
   collection,
@@ -55,6 +64,7 @@ export default {
   getAble,
   nft_1,
   hero,
+  hero2,
   creatorbackground1,
   creatorbackground2,
   creatorbackground3,
@@ -66,6 +76,14 @@ export default {
   creatorbackground9,
   creatorbackground10,
   creatorbackground11,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
+  provider1,
+  provider2,
+  provider3,
+  provider4,
   upload,
   user1,
   user2,
